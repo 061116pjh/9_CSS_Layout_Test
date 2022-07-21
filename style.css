@@ -1,0 +1,45 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+.body{display: flex; justify-content: center; align-items: center; width: 100%; height: 2550px; background: linear-gradient(lightCyan, skyBlue, deepSkyBlue);}
+.box{width: 1440px; height: 2300px; box-shadow: 0 0 15px 5px gray; margin: 0 auto; background: #fff;}
+header{position: relative; width: 1440px; height: 600px; background: url(./img/slide.jpg) rgb(232, 243, 232);}
+.menubox{display: flex; }
+
+.menu{display: flex; z-index: 1;width: 300px; height: 40px;}
+.menu li{ border-right: 1px solid #ccc; transition: .3s; }
+.menu:hover .submenu{ height: 165px; background: #ccc;}
+.menu >li:hover{background: #ccc;}
+.submenu> li{background: #ccc;}
+.submenu>li:hover{background: gray;}
+.menu> li>a{display: block;  text-align: center;   padding: 10px 20px; }
+.submenu li a{display: block; padding: 10px;  text-align: center;}
+.submenu{height: 0; overflow: hidden; transition: .3s;}
+.slide{width: 1000px;}
+
+article{width: 1000px; height: 400px; display: flex; justify-content: end;  margin: 0 auto; margin-top: 30px;}
+.text{line-height: 40px; position: absolute; top: 40%; left: 60%;}
+.bot{text-align: center;display: block; padding: 10px 10px; width: 250px; border: 2px solid #000; margin-top: 30px; border-radius: 30px 30px 30px 30px;}
+.but{position: relative;}
+.bot2{position: absolute;top: 13px; left: 55%;}
+.bot2>h4{border-bottom: 1px solid #000;}
+.text2{text-align: center;margin: 0 auto; margin-top: 50px; line-height: 40px;}
+.item{display: flex; margin: 0 auto; justify-content: space-around; width: 1000px;}
+.item img{width: 220px; height: 250px;}
+.item li{line-height: 30px;}
+.item li h4{margin-top: 10px;}
+.item li p{color: #ccc;}
+aside{display: flex; width: 1000px; height: 500px; margin: 0 auto;}
+.banner1{width: 480px;}
+.banner2{margin-left: 30px; line-height: 70px;}
+.banner2 img{width: 480px; height: 235px;}
+
+footer{ width: 1440px; height: 550px; background: rgb(241, 241, 241); margin: 0 auto; margin-top: 100px;}
+.text3{text-align: center; width: 500px; height: 100px; margin: 0 auto; line-height: 200px;}
+.text4{text-align: center;width: 500px; height: 50px; margin: 0 auto; line-height: 30px; margin-top: 50px;}
+.text4 p{color: rgb(129, 127, 127);}
+.reserch{width: 350px;height: 40px; background: #fff; border: 1px solid #000; margin: 0 auto; margin-top: 70px; line-height: 35px;}
+.reserch h4{margin-left: 10px; color: rgb(129, 127, 127);}
+.logo{display: flex; justify-content: space-around; width: 250px; height: 30px; margin: 0 auto; margin-top: 80px;}
+.copy{width: 200px; margin: 0 auto; margin-top: 30px;}
+
